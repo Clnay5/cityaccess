@@ -1,0 +1,11 @@
+{
+  "name": "Oxford central walking access case study",
+  "analysis_bbox": [-1.268, 51.746, -1.246, 51.762],
+  "network_bbox": [-1.29, 51.73, -1.225, 51.78],
+  "crs": "EPSG:32630",
+  "grid_spacing_m": 150,
+  "walking_speeds_kmh": [3, 4.8, 6],
+  "maximum_snap_distance_m": 100,
+  "facility_categories": ["pharmacy", "doctors", "clinic", "hospital"],
+  "overpass_endpoint": "https://overpass-api.de/api/interpreter"
+}

@@ -1,0 +1,12 @@
+{
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:90];\n(\n way[highway](51.73,-1.29,51.78,-1.225);\n node[amenity~\"^(pharmacy|doctors|clinic|hospital)$\"](51.73,-1.29,51.78,-1.225);\n way[amenity~\"^(pharmacy|doctors|clinic|hospital)$\"](51.73,-1.29,51.78,-1.225);\n);\nout body;\n>;\nout skel qt;\n",
+  "fetched_at": "2026-10-25T12:25:54.014159+00:00",
+  "osm_base_timestamp": "2026-10-25T12:24:36Z",
+  "raw_sha256": "eb7a14d8ee8fea415f3cc9df249716f6e3ba9b4ad4d771d5e373088436b64174",
+  "bytes": 5329985,
+  "elements": 41263,
+  "license": "ODbL-1.0",
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "source": "https://www.openstreetmap.org/copyright"
+}

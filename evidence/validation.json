@@ -1,0 +1,23 @@
+{
+  "network": {
+    "nodes": 22820,
+    "directed_edges": 50283,
+    "native_segments": 24877,
+    "weak_components": 116,
+    "largest_component_nodes": 22123,
+    "demand_samples": 117,
+    "snapped_samples": 111
+  },
+  "validation": {
+    "multi_source_vs_repeated_dijkstra": "passed",
+    "samples_checked": 80,
+    "route_cost_checks": "passed",
+    "scope": "Algorithm/accounting checks, not measured real walking times"
+  },
+  "audit": {
+    "accepted_ways": 6432,
+    "ways_with_unmodelled_conditional_tags": 321,
+    "excluded_ways": 2794
+  },
+  "source_sha256": "eb7a14d8ee8fea415f3cc9df249716f6e3ba9b4ad4d771d5e373088436b64174"
+}
